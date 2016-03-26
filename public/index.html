@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+      <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href='/css/main.css' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet" />
+
+    <script src="/js/shared/angular.min.js"></script>
+  </head>
+  <body ng-app="myApp">
+    <div class="header">
+      <div class="container">
+        <h1>Rate a pet</h1>
+      </div>
+    </div>
+
+    <div class="main" ng-controller="MainController">
+      <div class="container">
+
+        <h1>{{ title }}</h1>
+
+        <div ng-repeat="pet in pets" class="col-md-6">
+  				<div class="thumbnail">
+    				<img ng-src="{{ pet.cover }}">
+    				<p class="title">{{ pet.name }}</p>
+				    <div class="rating">
+				    	<p class="likes" ng-click="plusOne($index)">+ {{ product.likes }} </p>
+				    	<p class="dislikes" ng-click="minusOne($index)">- {{ product.dislikes }} </p>
+				    </div>
+  				</div>
+				</div>
+
+      </div>
+    </div>
+
+    <!-- Modules -->
+    <script src="/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="/js/controllers/MainController.js"></script>
+  </body>
+</html>
