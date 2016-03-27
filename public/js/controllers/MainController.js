@@ -15,13 +15,13 @@ app.controller('MainController', ['$scope', function($scope) {
   	},
   	{
     	name: 'Bruno',
-    	cover: 'bruno.jpg',
+    	cover: 'img/bruno.jpg',
     	likes: 0,
     	dislikes: 0
   	},
   	{
     	name: 'Snowy',
-    	cover: 'snowy.jpg',
+    	cover: 'img/snowy.jpg',
     	likes: 0,
     	dislikes: 0
   	}
