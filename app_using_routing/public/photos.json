@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Bobby",
+    "url": "img/bobby.jpg",
+    "description": "Bobby gets alog very well with other dogs and even cats too",
+    "likes": 0,
+    "dislikes": 0
+  },
+  {
+    "name": "Winkie",
+    "url": "img/winkie.jpg",
+    "description": "Winkie loves playing in water and getting attention",
+    "likes": 0,
+    "dislikes": 0
+  },
+  {
+    "name": "Bruno",
+    "url": "img/bruno.jpg",
+    "description": "Bruno really is a mans best friend",
+    "likes": 0,
+    "dislikes": 0
+  },
+  {
+    "name": "Snowy",
+    "url": "img/snowy.jpg",
+    "description": "Snowy likes to play dress up and can act too",
+    "likes": 0,
+    "dislikes": 0
+  }
+]
