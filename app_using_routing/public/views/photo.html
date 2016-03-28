@@ -1,0 +1,9 @@
+<div class="photo">
+  <div class="container">
+    <img ng-src="{{ detail.url }}">
+    <h2 class="photo-title"> {{ detail.name }} </h2>
+    <p class="photo-views"> {{ detail.description }}  </p>
+    <p class="likes" ng-click="plusOne($index)">+ {{ detail.likes }} </p>
+    <p class="dislikes" ng-click="minusOne($index)">- {{ detail.dislikes }} </p>
+  </div>
+</div>
